@@ -64,6 +64,32 @@ padding: 0.5rem 1rem;
   margin-top: 0.2rem;
   width: 5rem;
 }
+.reply-button{
+  border-radius: 20px;
+  /* align-content: center; */
+  height: 25px;
+  background: #f0f0f0;
+  border: none;
+
+}
+.textarea-display{
+  display: none;
+}
+
+/* .textarea-display:active{
+  transition: 5000;
+} */
+
+.comment-reply{
+  border-radius: 5px;
+  max-height: 150px;
+  width: 90%;
+  padding-left: 0.5rem;
+}
+.submit-reply-button{
+  height: 28px;
+  border-radius: 20px;
+}
 
 /* Feed Section */
 .feed{
@@ -103,6 +129,7 @@ padding: 0.5rem 1rem;
 }
 .time-section{
   float: right ;
+  margin-bottom: 0.2rem;
 }
 
 .comment-area{
