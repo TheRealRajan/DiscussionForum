@@ -17,8 +17,6 @@
   <!-- Font Awesome CDN -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
-  <!-- Font Awesome CDN -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
 </head>
 
@@ -37,25 +35,34 @@
           <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Topics</a>
+          <a class="nav-link" href="#">Top Posts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Notices</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">FAQs</a>
         </li>
       </ul>
       <span class="navbar-text">
         <a href="user.html">username_here</a>
 
-      </span>
+      </span>&nbsp
+      <button class="btn btn-sm btn-dark" type="button" name="button">Logout</button>
+
     </div>
 
   </nav>
 
   <!-- Search Bar -->
 
-  <div class="search-bar col-lg-7 col-md-9 col-sm-10">
+  <!-- <div class="search-bar col-lg-7 col-md-9 col-sm-10">
 
     <input class="form-control search-input" type="search" placeholder="Search...">
     <button class="btn btn-outline-dark search-button-profile " type="submit"><i class="fas fa-search"></i></button>
 
-  </div>
+  </div> -->
+
 
   <!-- User Input Section -->
 
@@ -80,15 +87,26 @@
 
             <div class="">
               <span class="vote-section">
-                <i class="fas fa-chevron-up"></i>
-                <a href="#">111</a>
-                <i class="fas fa-chevron-down"></i> &nbsp
-                <a href="#"><i class="fas fa-reply"></i> Reply</a>
+                <article class="d-inline">
+                  <i class="fas fa-chevron-up"></i>
+                  <a href="#">111</a>
+                  <i class="fas fa-chevron-down"></i>
+                </article>&nbsp
+
+                <a class = "btn no-padding-btn" href="#"> <i class="fas fa-reply"></i> Reply</a> &nbsp
+                <a class = "btn no-padding-btn" href="#"> <i class="fas fa-pen"></i>  Edit</a>&nbsp
+                <a class = "btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
+                <a class = "btn no-padding-btn" href="#"> <i class="fas fa-flag"></i> Report</a>
+                <!-- <button type="button" name="button">Report</button> -->
+
               </span>
               <span class="time-section">
+
                 <i>4 hours ago </i>|
                 <a href="#">username_here</a>
+
               </span>
+
 
             </div>
           </div>
@@ -112,302 +130,175 @@
 
         <div class="userposts col-lg-12 col-md-12 col-sm-12">
 
-            <div class="uservote">
-              <i class="fas fa-chevron-up"></i><br>
-              <a href="#">111</a><br>
-              <i class="fas fa-chevron-down"></i>
-            </div>
+          <article class="uservote">
+            <i class="fas fa-chevron-up"></i><br>
+            <a href="#">69</a><br>
+            <i class="fas fa-chevron-down"></i>
+          </article>
 
             <div class="title-desc">
               <h6>The description of the post goes here. This section can contain longer text. It should describe about the title. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
             </div>
             <div class="">
+              <a class = "btn no-padding-btn" href="#"> <i class="fas fa-flag"></i> Report</a>
               <span class="time-section">
-
-                <!-- Changes made here -->
-                <button class=" reply-button " type="button" name="button" onclick="toggle_visibility('textarea1');"><em>Reply</em> </button>|
                 <i>4 days ago </i> |
                 <a href="#">username_here</a>
               </span>
-              <!-- Changes made here -->
-              <div class="textarea-display" id="textarea1" >
-                <form class="" action="" method="post">
-                  <textarea class="comment-reply" name="name"  placeholder="Enter your reply here..."></textarea>
-                  <button class="btn btn-dark btn-sm submit-reply-button "type="submit" name="button">Submit reply</button>
-                </form>
-
-              </div>
             </div>
 
         </div>
 
         <div class="userposts col-lg-12 col-md-12 col-sm-12">
 
-            <div class="uservote">
-              <i class="fas fa-chevron-up"></i><br>
-              <a href="#">111</a><br>
-              <i class="fas fa-chevron-down"></i>
-            </div>
+          <article class="uservote">
+            <i class="fas fa-chevron-up"></i><br>
+            <a href="#">69</a><br>
+            <i class="fas fa-chevron-down"></i>
+          </article>
 
             <div class="title-desc">
               <h6>The description of the post goes here. This section can contain longer text. It should describe about the title. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
             </div>
             <div class="">
+              <a class = "btn no-padding-btn" href="#"> <i class="fas fa-flag"></i> Report</a>
               <span class="time-section">
-
-                <!-- Changes made here -->
-                <button class=" reply-button " type="button" name="button" onclick="toggle_visibility('textarea2');"><em>Reply</em> </button>|
                 <i>4 days ago </i> |
                 <a href="#">username_here</a>
               </span>
-              <!-- Changes made here -->
-              <div class="textarea-display" id="textarea2" >
-                <form class="" action="" method="post">
-                  <textarea class="comment-reply" name="name"  placeholder="Enter your reply here..."></textarea>
-                  <button class="btn btn-dark btn-sm submit-reply-button"type="submit" name="button">Submit reply</button>
-                </form>
-
-              </div>
             </div>
 
         </div>
 
         <div class="userposts col-lg-12 col-md-12 col-sm-12">
 
-            <div class="uservote">
-              <i class="fas fa-chevron-up"></i><br>
-              <a href="#">111</a><br>
-              <i class="fas fa-chevron-down"></i>
-            </div>
+          <article class="uservote">
+            <i class="fas fa-chevron-up"></i><br>
+            <a href="#">69</a><br>
+            <i class="fas fa-chevron-down"></i>
+          </article>
 
             <div class="title-desc">
               <h6>The description of the post goes here. This section can contain longer text. It should describe about the title. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
             </div>
             <div class="">
+              <a class = "btn no-padding-btn" href="#"> <i class="fas fa-flag"></i> Report</a>
               <span class="time-section">
-
-                <!-- Changes made here -->
-                <button class=" reply-button " type="button" name="button" onclick="toggle_visibility('textarea3');"><em>Reply</em></button>|
                 <i>4 days ago </i> |
                 <a href="#">username_here</a>
               </span>
-              <!-- Changes made here -->
-              <div class="textarea-display" id="textarea3" >
-                <form class="" action="" method="post">
-                  <textarea class="comment-reply" name="name"  placeholder="Enter your reply here..."></textarea>
-                  <button class="btn btn-dark btn-sm submit-reply-button"type="submit" name="button">Submit reply</button>
-                </form>
-
-              </div>
             </div>
 
         </div>
 
         <div class="userposts col-lg-12 col-md-12 col-sm-12">
 
-            <div class="uservote">
-              <i class="fas fa-chevron-up"></i><br>
-              <a href="#">111</a><br>
-              <i class="fas fa-chevron-down"></i>
-            </div>
+          <article class="uservote">
+            <i class="fas fa-chevron-up"></i><br>
+            <a href="#">69</a><br>
+            <i class="fas fa-chevron-down"></i>
+          </article>
 
             <div class="title-desc">
               <h6>The description of the post goes here. This section can contain longer text. It should describe about the title. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
             </div>
             <div class="">
+              <a class = "btn no-padding-btn" href="#"> <i class="fas fa-flag"></i> Report</a>
               <span class="time-section">
-
-                <!-- Changes made here -->
-                <button class=" reply-button " type="button" name="button" onclick="toggle_visibility('textarea4');"><em>Reply</em> </button>|
                 <i>4 days ago </i> |
                 <a href="#">username_here</a>
               </span>
-              <!-- Changes made here -->
-              <div class="textarea-display" id="textarea4" >
-                <form class="" action="" method="post">
-                  <textarea class="comment-reply" name="name"  placeholder="Enter your reply here..."></textarea>
-                  <button class="btn btn-dark btn-sm submit-reply-button"type="submit" name="button">Submit reply</button>
-                </form>
-
-              </div>
             </div>
 
         </div>
 
         <div class="userposts col-lg-12 col-md-12 col-sm-12">
 
-            <div class="uservote">
-              <i class="fas fa-chevron-up"></i><br>
-              <a href="#">111</a><br>
-              <i class="fas fa-chevron-down"></i>
-            </div>
+          <article class="uservote">
+            <i class="fas fa-chevron-up"></i><br>
+            <a href="#">69</a><br>
+            <i class="fas fa-chevron-down"></i>
+          </article>
 
             <div class="title-desc">
               <h6>The description of the post goes here. This section can contain longer text. It should describe about the title. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
             </div>
             <div class="">
+              <a class = "btn no-padding-btn" href="#"> <i class="fas fa-flag"></i> Report</a>
               <span class="time-section">
-                <!-- Changes made here -->
-                <button class=" reply-button " type="button" name="button" onclick="toggle_visibility('textarea5');"><em>Reply</em></button>|
                 <i>4 days ago </i> |
                 <a href="#">username_here</a>
               </span>
-              <!-- Changes made here -->
-              <div class="textarea-display" id="textarea5" >
-                <form class="" action="" method="post">
-                  <textarea class="comment-reply" name="name"  placeholder="Enter your reply here..."></textarea>
-                  <button class="btn btn-dark btn-sm submit-reply-button"type="submit" name="button">Submit reply</button>
-                </form>
-
-              </div>
             </div>
 
         </div>
 
         <div class="userposts col-lg-12 col-md-12 col-sm-12">
 
-            <div class="uservote">
-              <i class="fas fa-chevron-up"></i><br>
-              <a href="#">111</a><br>
-              <i class="fas fa-chevron-down"></i>
-            </div>
+          <article class="uservote">
+            <i class="fas fa-chevron-up"></i><br>
+            <a href="#">69</a><br>
+            <i class="fas fa-chevron-down"></i>
+          </article>
 
             <div class="title-desc">
               <h6>The description of the post goes here. This section can contain longer text. It should describe about the title. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
             </div>
             <div class="">
+              <a class = "btn no-padding-btn" href="#"> <i class="fas fa-flag"></i> Report</a>
               <span class="time-section">
-
-                <!-- Changes made here -->
-                <button class=" reply-button " type="button" name="button" onclick="toggle_visibility('textarea6');"><em>Reply</em> </button>|
                 <i>4 days ago </i> |
                 <a href="#">username_here</a>
               </span>
-              <!-- Changes made here -->
-              <div class="textarea-display" id="textarea6" >
-                <form class="" action="" method="post">
-                  <textarea class="comment-reply" name="name"  placeholder="Enter your reply here..."></textarea>
-                  <button class="btn btn-dark btn-sm submit-reply-button"type="submit" name="button">Submit reply</button>
-                </form>
-
-              </div>
             </div>
 
         </div>
 
-        <div class="userposts col-lg-12 col-md-12 col-sm-12">
-
-            <div class="uservote">
-              <i class="fas fa-chevron-up"></i><br>
-              <a href="#">111</a><br>
-              <i class="fas fa-chevron-down"></i>
-            </div>
-
-            <div class="title-desc">
-              <h6>The description of the post goes here. This section can contain longer text. It should describe about the title. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
-            </div>
-            <div class="">
-              <span class="time-section">
-
-                <!-- Changes made here -->
-                <button class=" reply-button " type="button" name="button" onclick="toggle_visibility('textarea7');"><em>Reply</em> </button>|
-                <i>4 days ago </i> |
-                <a href="#">username_here</a>
-              </span>
-              <!-- Changes made here -->
-              <div class="textarea-display" id="textarea7" >
-                <form class="" action="" method="post">
-                  <textarea class="comment-reply" name="name"  placeholder="Enter your reply here..."></textarea>
-                  <button class="btn btn-dark btn-sm submit-reply-button"type="submit" name="button">Submit reply</button>
-                </form>
-
-              </div>
-            </div>
-
-        </div>
-
-        <div class="userposts col-lg-12 col-md-12 col-sm-12">
-
-            <div class="uservote">
-              <i class="fas fa-chevron-up"></i><br>
-              <a href="#">111</a><br>
-              <i class="fas fa-chevron-down"></i>
-            </div>
-
-            <div class="title-desc">
-              <h6>The description of the post goes here. This section can contain longer text. It should describe about the title. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
-            </div>
-            <div class="">
-              <span class="time-section">
-
-                <!-- Changes made here -->
-                <button class=" reply-button " type="button" name="button" onclick="toggle_visibility('textarea8');"><em>Reply</em></button>|
-                <i>4 days ago </i> |
-                <a href="#">username_here</a>
-              </span>
-              <!-- Changes made here -->
-              <div class="textarea-display" id="textarea8" >
-                <form class="" action="" method="post">
-                  <textarea class="comment-reply" name="name"  placeholder="Enter your reply here..."></textarea>
-                  <button class="btn btn-dark btn-sm submit-reply-button"type="submit" name="button">Submit reply</button>
-                </form>
-
-              </div>
-            </div>
-
-        </div>
+      </div>
 
 
     </section>
 
     <section class="col-lg-4 col-md-6 recommended">
-      <h4>You might find these helpful.</h4>
+
       <div class="related">
+        <i class="fas fa-2x fa-paperclip"></i>
+        <h4 class="d-inline">You might find these helpful.</h4>
+        <br><br>
+        <hr>
         <div class="related-post">
           <h6>This is a post which is related to the discussion. This might be interesting and/or what youre looking for.</h6>
         </div>
+        <hr>
         <div class="related-post">
           <h6>This is a post which is related to the discussion. This might be interesting and/or what youre looking for.</h6>
         </div>
+        <hr>
         <div class="related-post">
           <h6>This is a post which is related to the discussion. This might be interesting and/or what youre looking for.</h6>
         </div>
+        <hr>
         <div class="related-post">
           <h6>This is a post which is related to the discussion. This might be interesting and/or what youre looking for.</h6>
         </div>
+        <hr>
         <div class="related-post">
           <h6>This is a post which is related to the discussion. This might be interesting and/or what youre looking for.</h6>
         </div>
+        <hr>
         <div class="related-post">
           <h6>This is a post which is related to the discussion. This might be interesting and/or what youre looking for.</h6>
         </div>
-        <div class="related-post">
-          <h6>This is a post which is related to the discussion. This might be interesting and/or what youre looking for.</h6>
-        </div>
-        <div class="related-post">
-          <h6>This is a post which is related to the discussion. This might be interesting and/or what youre looking for.</h6>
-        </div>
+        <hr>
 
 
       </div>
 
     </section>
   </div>
-  
-<!-- Changes made here -->
-<!-- Reply button toggle ko script -->
-  <script type="text/javascript">
-
-    function toggle_visibility(id) {
-       var e = document.getElementById(id);
-       if(e.style.display == 'none')
-          e.style.display = 'block';
-       else
-          e.style.display = 'none';
-    }
-
-</script>
-
 </body>
 
+<footer class="footer">
+<p class="footer-text">@DiscussionForum , College Project, 2019</p>
+</footer>
 </html>
