@@ -250,3 +250,7 @@ border: solid grey 0.6px;
   width: 60%;
   margin: 2rem auto;
 }
+
+.filler{
+  height: 17rem;
+}
