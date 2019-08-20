@@ -34,310 +34,313 @@
 
 <body>
 
-  <!-- Navigation Bar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Discuss</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <div class="main-wrapper">
 
-    <div class=" navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Top Posts</a>
-        </li>
-        <!-- <li class="nav-item">
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Discuss</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class=" navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Top Posts</a>
+          </li>
+          <!-- <li class="nav-item">
           <a class="nav-link" href="#">Topics</a>
         </li> -->
-        <li class="nav-item">
-          <a class="nav-link" href="#">Notices</a>
-        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Notices</a>
+          </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="#">FAQs</a>
-        </li>
-      </ul>
-      <span class="navbar-text">
-        <a href="user.html">username_here</a>
-      </span>&nbsp
-      <button class="btn btn-sm btn-dark" type="button" name="button">Logout</button>
-    </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FAQs</a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+          <a href="user.html">username_here</a>
+        </span>&nbsp
+        <button class="btn btn-sm btn-dark" type="button" name="button">Logout</button>
+      </div>
 
-  </nav>
+    </nav>
 
-  <!-- Search Bar -->
-  <!-- <div class="search-bar col-lg-7 col-md-9 col-sm-10">
+    <!-- Search Bar -->
+    <!-- <div class="search-bar col-lg-7 col-md-9 col-sm-10">
 
     <input class="form-control search-input" type="search" placeholder="Search...">
     <button class="btn btn-outline-dark search-button-profile " type="submit"><i class="fas fa-search"></i></button>
 
-  </div> -->
+    </div> -->
 
 
-  <!-- User Input Section -->
-  <div class=" user-input col-lg-7 col-md-9 col-sm-10">
-    <form class="notice-entry" action="#" method="post">
+    <!-- User Input Section -->
+    <div class=" user-input col-lg-7 col-md-9 col-sm-10">
+      <form class="notice-entry" action="#" method="post">
 
-      <i class="fas fa-2x fa-share-alt">&nbsp</i>
-      <h3 class="d-inline"> Publish Notice</h3>
-      <br><br>
-      <input class="input-area title-input" type="text" placeholder="Enter title of notice here." name="" value="" required> <br>
-      <textarea class="input-area desc-input" type="text" placeholder="Enter notice description here." name="" value=""></textarea> <br>
-
-
-
-      <!-- Category Selector 2 -->
-      <div class="form-group  d-inline">
-        <select class=" btn btn-dark btn-sm dropdown-button">
-          <option value="">Select Category</option>
-          <option value="Coding Issues">Coding Issues</option>
-          <option value="Algorithm">Algorithm</option>
-          <option value="Exams">Exams</option>
-          <option value="Event">Event</option>
-        </select>
-
-      </div>
-      <!-- Post Submit Button -->
-      <button class="btn btn-dark btn-sm submit-button" type="submit" name="button"> Submit </button>
-      <br>&nbsp <br> &nbsp
-
-    </form>
-  </div>
+        <i class="fas fa-2x fa-share-alt">&nbsp</i>
+        <h3 class="d-inline"> Publish Notice</h3>
+        <br><br>
+        <input class="input-area title-input" type="text" placeholder="Enter title of notice here." name="" value="" required> <br>
+        <textarea class="input-area desc-input" type="text" placeholder="Enter notice description here." name="" value=""></textarea> <br>
 
 
-  <div class="containerr">
-    <br>
-    <span class="section-header d-block col-lg-7 col-md-9 col-sm-10 ">
-      <i class="fas fa-2x fa-user-plus">&nbsp</i>
-      <h3 class="d-inline"> New Users</h3>
-    </span>
 
+        <!-- Category Selector 2 -->
+        <div class="form-group  d-inline">
+          <select class=" btn btn-dark btn-sm dropdown-button">
+            <option value="">Select Category</option>
+            <option value="Coding Issues">Coding Issues</option>
+            <option value="Algorithm">Algorithm</option>
+            <option value="Exams">Exams</option>
+            <option value="Event">Event</option>
+          </select>
 
-    <div class="table-responsive">
-      <table class="table table-hover">
-        <thead class="thead-dark">
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">Username</th>
-            <th scope="col">Email</th>
-            <th scope="col">Action ? </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>hulksmashysmashy</td>
-            <td>blackwidowdead@hulksad.com</td>
-            <td>
-              <a class="btn no-padding-btn" href="#"> <i class="fas fa-user-check"></i> Accept</a>&nbsp
-              <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>ironheartguy</td>
-            <td>iloveyou3000@snap.com</td>
-            <td>
-              <a class="btn no-padding-btn" href="#"> <i class="fas fa-user-check"></i> Accept</a>&nbsp
-              <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>perfectlybalanced</td>
-            <td>aseverything@shouldbe.com</td>
-            <td>
-              <a class="btn no-padding-btn" href="#"> <i class="fas fa-user-check"></i> Accept</a>&nbsp
-              <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">4</th>
-            <td>draxrevenge</td>
-            <td>fastreflexes@myhead.com</td>
-            <td>
-              <a class="btn no-padding-btn" href="#"> <i class="fas fa-user-check"></i> Accept</a>&nbsp
-              <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">5</th>
-            <td>japanesearrowninja</td>
-            <td>Illgotojapan@aftersnap.com</td>
-            <td>
-              <a class="btn no-padding-btn" href="#"> <i class="fas fa-user-check"></i> Accept</a>&nbsp
-              <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">6</th>
-            <td>hankschrader</td>
-            <td>mineralsnotrocks@marie.com</td>
-            <td>
-              <a class="btn no-padding-btn" href="#"> <i class="fas fa-user-check"></i> Accept</a>&nbsp
-              <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">7</th>
-            <td>ChefHeisenberg</td>
-            <td>saymyname@goddamnright.com</td>
-            <td>
-              <a class="btn no-padding-btn" href="#"> <i class="fas fa-user-check"></i> Accept</a>&nbsp
-              <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">8</th>
-            <td>WakandanBlackPanther</td>
-            <td>spiritofthepanther@vibranium.com</td>
-            <td>
-              <a class="btn no-padding-btn" href="#"> <i class="fas fa-user-check"></i> Accept</a>&nbsp
-              <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">9</th>
-            <td>BuckyRoboarm</td>
-            <td>nochancerocket@racoon.com</td>
-            <td>
-              <a class="btn no-padding-btn" href="#"> <i class="fas fa-user-check"></i> Accept</a>&nbsp
-              <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">10</th>
-            <td>thunderBeerGut</td>
-            <td>willgetmyabsback@again.com</td>
-            <td>
-              <a class="btn no-padding-btn" href="#"> <i class="fas fa-user-check"></i> Accept</a>&nbsp
-              <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+        </div>
+        <!-- Post Submit Button -->
+        <button class="btn btn-dark btn-sm submit-button" type="submit" name="button"> Submit </button>
+        <br>&nbsp <br> &nbsp
+
+      </form>
     </div>
 
 
-
-
-    <div class="row">
+    <div class="containerr">
       <br>
       <span class="section-header d-block col-lg-7 col-md-9 col-sm-10 ">
-
-        <i class="fas fa-2x fa-flag">&nbsp</i>
-        <h3 class="d-inline"> Reported Posts</h3>
+        <i class="fas fa-2x fa-user-plus">&nbsp</i>
+        <h3 class="d-inline"> New Users</h3>
       </span>
-      <br><br>
 
-      <div class="userposts col-lg-7 col-md-9 col-sm-10">
 
-        <article class="uservote">
-          <i class="fas fa-chevron-up"></i><br>
-          <a href="#">420</a><br>
-          <i class="fas fa-chevron-down"></i>
-        </article>
-
-        <div class="title-desc">
-          <h4>Title of the post goes here.</h4>
-          <h6>The description of the post goes here. This section can contain longer text. It should describe about the title. Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
-        </div>
-        <div class="">
-          <a class="btn no-padding-btn" href="#"> <i class="fas fa-check-circle"></i> Accept</a>&nbsp
-          <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
-          <span class="time-section">
-            <i>4 days ago </i> |
-            <a href="#">username_here</a>
-          </span>
-        </div>
-
-    </div>
-
-    <div class="userposts col-lg-7 col-md-9 col-sm-10">
-
-      <article class="uservote">
-        <i class="fas fa-chevron-up"></i><br>
-        <a href="#">420</a><br>
-        <i class="fas fa-chevron-down"></i>
-      </article>
-
-      <div class="title-desc">
-        <h4>Title of the post goes here.</h4>
-        <h6>The description of the post goes here. This section can contain longer text. It should describe about the title. Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
+      <div class="table-responsive">
+        <table class="table table-hover">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Username</th>
+              <th scope="col">Email</th>
+              <th scope="col">Action ? </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>hulksmashysmashy</td>
+              <td>blackwidowdead@hulksad.com</td>
+              <td>
+                <a class="btn no-padding-btn" href="#"> <i class="fas fa-user-check"></i> Accept</a>&nbsp
+                <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>ironheartguy</td>
+              <td>iloveyou3000@snap.com</td>
+              <td>
+                <a class="btn no-padding-btn" href="#"> <i class="fas fa-user-check"></i> Accept</a>&nbsp
+                <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>perfectlybalanced</td>
+              <td>aseverything@shouldbe.com</td>
+              <td>
+                <a class="btn no-padding-btn" href="#"> <i class="fas fa-user-check"></i> Accept</a>&nbsp
+                <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>draxrevenge</td>
+              <td>fastreflexes@myhead.com</td>
+              <td>
+                <a class="btn no-padding-btn" href="#"> <i class="fas fa-user-check"></i> Accept</a>&nbsp
+                <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>japanesearrowninja</td>
+              <td>Illgotojapan@aftersnap.com</td>
+              <td>
+                <a class="btn no-padding-btn" href="#"> <i class="fas fa-user-check"></i> Accept</a>&nbsp
+                <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">6</th>
+              <td>hankschrader</td>
+              <td>mineralsnotrocks@marie.com</td>
+              <td>
+                <a class="btn no-padding-btn" href="#"> <i class="fas fa-user-check"></i> Accept</a>&nbsp
+                <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">7</th>
+              <td>ChefHeisenberg</td>
+              <td>saymyname@goddamnright.com</td>
+              <td>
+                <a class="btn no-padding-btn" href="#"> <i class="fas fa-user-check"></i> Accept</a>&nbsp
+                <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">8</th>
+              <td>WakandanBlackPanther</td>
+              <td>spiritofthepanther@vibranium.com</td>
+              <td>
+                <a class="btn no-padding-btn" href="#"> <i class="fas fa-user-check"></i> Accept</a>&nbsp
+                <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">9</th>
+              <td>BuckyRoboarm</td>
+              <td>nochancerocket@racoon.com</td>
+              <td>
+                <a class="btn no-padding-btn" href="#"> <i class="fas fa-user-check"></i> Accept</a>&nbsp
+                <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">10</th>
+              <td>thunderBeerGut</td>
+              <td>willgetmyabsback@again.com</td>
+              <td>
+                <a class="btn no-padding-btn" href="#"> <i class="fas fa-user-check"></i> Accept</a>&nbsp
+                <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-      <div class="">
-        <a class="btn no-padding-btn" href="#"> <i class="fas fa-check-circle"></i> Accept</a>&nbsp
-        <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
-        <span class="time-section">
-          <i>4 days ago </i> |
-          <a href="#">username_here</a>
+
+
+
+
+      <div class="row">
+        <br>
+        <span class="section-header d-block col-lg-7 col-md-9 col-sm-10 ">
+
+          <i class="fas fa-2x fa-flag">&nbsp</i>
+          <h3 class="d-inline"> Reported Posts</h3>
         </span>
+        <br><br>
+
+        <div class="userposts col-lg-7 col-md-9 col-sm-10">
+
+          <article class="uservote">
+            <i class="fas fa-chevron-up"></i><br>
+            <a href="#">420</a><br>
+            <i class="fas fa-chevron-down"></i>
+          </article>
+
+          <div class="title-desc">
+            <h4>Title of the post goes here.</h4>
+            <h6>The description of the post goes here. This section can contain longer text. It should describe about the title. Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
+          </div>
+          <div class="">
+            <a class="btn no-padding-btn" href="#"> <i class="fas fa-check-circle"></i> Accept</a>&nbsp
+            <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
+            <span class="time-section">
+              <i>4 days ago </i> |
+              <a href="#">username_here</a>
+            </span>
+          </div>
+
+        </div>
+
+        <div class="userposts col-lg-7 col-md-9 col-sm-10">
+
+          <article class="uservote">
+            <i class="fas fa-chevron-up"></i><br>
+            <a href="#">420</a><br>
+            <i class="fas fa-chevron-down"></i>
+          </article>
+
+          <div class="title-desc">
+            <h4>Title of the post goes here.</h4>
+            <h6>The description of the post goes here. This section can contain longer text. It should describe about the title. Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
+          </div>
+          <div class="">
+            <a class="btn no-padding-btn" href="#"> <i class="fas fa-check-circle"></i> Accept</a>&nbsp
+            <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
+            <span class="time-section">
+              <i>4 days ago </i> |
+              <a href="#">username_here</a>
+            </span>
+          </div>
+
+        </div>
+
+        <div class="userposts col-lg-7 col-md-9 col-sm-10">
+
+          <article class="uservote">
+            <i class="fas fa-chevron-up"></i><br>
+            <a href="#">420</a><br>
+            <i class="fas fa-chevron-down"></i>
+          </article>
+
+          <div class="title-desc">
+            <h4>Title of the post goes here.</h4>
+            <h6>The description of the post goes here. This section can contain longer text. It should describe about the title. Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
+          </div>
+          <div class="">
+            <a class="btn no-padding-btn" href="#"> <i class="fas fa-check-circle"></i> Accept</a>&nbsp
+            <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
+            <span class="time-section">
+              <i>4 days ago </i> |
+              <a href="#">username_here</a>
+            </span>
+          </div>
+
+        </div>
+
+        <div class="userposts col-lg-7 col-md-9 col-sm-10">
+
+          <article class="uservote">
+            <i class="fas fa-chevron-up"></i><br>
+            <a href="#">420</a><br>
+            <i class="fas fa-chevron-down"></i>
+          </article>
+
+          <div class="title-desc">
+            <h4>Title of the post goes here.</h4>
+            <h6>The description of the post goes here. This section can contain longer text. It should describe about the title. Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
+          </div>
+          <div class="">
+            <a class="btn no-padding-btn" href="#"> <i class="fas fa-check-circle"></i> Accept</a>&nbsp
+            <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
+            <span class="time-section">
+              <i>4 days ago </i> |
+              <a href="#">username_here</a>
+            </span>
+          </div>
+
+        </div>
+
+
+
+
       </div>
 
-  </div>
-
-  <div class="userposts col-lg-7 col-md-9 col-sm-10">
-
-    <article class="uservote">
-      <i class="fas fa-chevron-up"></i><br>
-      <a href="#">420</a><br>
-      <i class="fas fa-chevron-down"></i>
-    </article>
-
-    <div class="title-desc">
-      <h4>Title of the post goes here.</h4>
-      <h6>The description of the post goes here. This section can contain longer text. It should describe about the title. Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
     </div>
-    <div class="">
-      <a class="btn no-padding-btn" href="#"> <i class="fas fa-check-circle"></i> Accept</a>&nbsp
-      <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
-      <span class="time-section">
-        <i>4 days ago </i> |
-        <a href="#">username_here</a>
-      </span>
-    </div>
-
-</div>
-
-<div class="userposts col-lg-7 col-md-9 col-sm-10">
-
-  <article class="uservote">
-    <i class="fas fa-chevron-up"></i><br>
-    <a href="#">420</a><br>
-    <i class="fas fa-chevron-down"></i>
-  </article>
-
-  <div class="title-desc">
-    <h4>Title of the post goes here.</h4>
-    <h6>The description of the post goes here. This section can contain longer text. It should describe about the title. Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
   </div>
-  <div class="">
-    <a class="btn no-padding-btn" href="#"> <i class="fas fa-check-circle"></i> Accept</a>&nbsp
-    <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
-    <span class="time-section">
-      <i>4 days ago </i> |
-      <a href="#">username_here</a>
-    </span>
-  </div>
-
-</div>
-
-
-
-
-  </div>
-
-
-
-
+  <footer class="footer">
+    <p class="footer-text">@DiscussionForum , College Project, 2019</p>
+  </footer>
 
 </body>
 
-<footer class="footer">
-<p class="footer-text">@DiscussionForum , College Project, 2019</p>
-</footer>
+
 
 </html>

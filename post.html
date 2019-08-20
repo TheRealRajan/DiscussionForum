@@ -21,42 +21,44 @@
 </head>
 
 <body>
+  <div class="main-wrapper">
 
-  <!-- Navigation Bar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Discuss</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
 
-    <div class=" navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Top Posts</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Notices</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">FAQs</a>
-        </li>
-      </ul>
-      <span class="navbar-text">
-        <a href="user.html">username_here</a>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Discuss</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-      </span>&nbsp
-      <button class="btn btn-sm btn-dark" type="button" name="button">Logout</button>
+      <div class=" navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Top Posts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Notices</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FAQs</a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+          <a href="user.html">username_here</a>
 
-    </div>
+        </span>&nbsp
+        <button class="btn btn-sm btn-dark" type="button" name="button">Logout</button>
 
-  </nav>
+      </div>
 
-  <!-- Search Bar -->
+    </nav>
 
-  <!-- <div class="search-bar col-lg-7 col-md-9 col-sm-10">
+    <!-- Search Bar -->
+
+    <!-- <div class="search-bar col-lg-7 col-md-9 col-sm-10">
 
     <input class="form-control search-input" type="search" placeholder="Search...">
     <button class="btn btn-outline-dark search-button-profile " type="submit"><i class="fas fa-search"></i></button>
@@ -64,377 +66,245 @@
   </div> -->
 
 
-  <!-- User Input Section -->
+    <!-- User Input Section -->
 
-  <!-- Posts Section -->
-  <div class="main row">
+    <!-- Posts Section -->
+    <div class="main row">
 
 
-    <section class="post-comment col-lg-8 col-md-11">
+      <section class="post-comment col-lg-8 col-md-11">
 
-      <div class="post">
+        <div class="post">
+          <div class="row">
+
+            <div class="col-lg-12">
+              <div class="row">
+                <h4>Title of the post goes here.</h4>
+              </div>
+
+              <div class="row">
+                <h6>The description of the post goes here. This section can contain longer text. It should describe about the title. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua.</h6>
+              </div>
+
+              <div class="">
+                <span class="vote-section">
+                  <article class="d-inline">
+                    <i class="fas fa-chevron-up"></i>
+                    <a href="#">111</a>
+                    <i class="fas fa-chevron-down"></i>
+                  </article>&nbsp
+
+                  <a class="btn no-padding-btn" href="#"> <i class="fas fa-reply"></i> Reply</a> &nbsp
+                  <a class="btn no-padding-btn" href="#"> <i class="fas fa-pen"></i> Edit</a>&nbsp
+                  <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
+                  <a class="btn no-padding-btn" href="#"> <i class="fas fa-flag"></i> Report</a>
+                  <!-- <button type="button" name="button">Report</button> -->
+
+                </span>
+                <span class="time-section">
+
+                  <i>category_here</i> |
+                  <i>4 hours ago</i> |
+                  <a href="#">username_here</a>
+
+                </span>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Comment Section -->
+
+        <!-- User Reply -->
+        <div class="comment-box">
+          <form class="" action="#" method="post">
+            <textarea class="input-area comment-area" type="text" placeholder="Enter your comment here..." name="" value=""></textarea> <br>
+            <button class="btn btn-dark submit-button btn-sm" type="submit" name="button"> Comment </button>
+          </form>
+        </div>
+
+
+        <!-- Comments Display -->
+
         <div class="row">
 
-          <div class="col-lg-12">
-            <div class="row">
-              <h4>Title of the post goes here.</h4>
-            </div>
+          <div class="userposts col-lg-12 col-md-12 col-sm-12">
 
-            <div class="row">
+            <article class="uservote">
+              <i class="fas fa-chevron-up"></i><br>
+              <a href="#">69</a><br>
+              <i class="fas fa-chevron-down"></i>
+            </article>
+
+            <div class="title-desc">
               <h6>The description of the post goes here. This section can contain longer text. It should describe about the title. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                 aliqua.</h6>
             </div>
-
             <div class="">
-              <span class="vote-section">
-                <article class="d-inline">
-                  <i class="fas fa-chevron-up"></i>
-                  <a href="#">111</a>
-                  <i class="fas fa-chevron-down"></i>
-                </article>&nbsp
-
-                <a class="btn no-padding-btn" href="#"> <i class="fas fa-reply"></i> Reply</a> &nbsp
-                <a class="btn no-padding-btn" href="#"> <i class="fas fa-pen"></i> Edit</a>&nbsp
-                <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
-                <a class="btn no-padding-btn" href="#"> <i class="fas fa-flag"></i> Report</a>
-                <!-- <button type="button" name="button">Report</button> -->
-
-              </span>
+              <a class="btn no-padding-btn" href="#"> <i class="fas fa-flag"></i> Report</a>
               <span class="time-section">
-
-                <i>4 hours ago </i>|
+                <i>4 days ago </i> |
                 <a href="#">username_here</a>
-
               </span>
-
-
             </div>
-          </div>
-        </div>
-      </div>
 
-      <!-- Comment Section -->
-
-      <!-- User Reply -->
-      <div class="comment-box">
-        <form class="" action="#" method="post">
-          <textarea class="input-area comment-area" type="text" placeholder="Enter your comment here..." name="" value=""></textarea> <br>
-          <button class="btn btn-dark submit-button btn-sm" type="submit" name="button"> Comment </button>
-        </form>
-      </div>
-
-
-      <!-- Comments Display -->
-
-      <div class="row">
-
-        <div class="comment col-lg-12 col-md-12 col-sm-12">
-
-          <div class="title-desc">
-            <h6>The comment goes here. This section can contain longer text. It should describe about the title. </h6>
           </div>
 
-          <div class="">
-            <span class="vote-section">
-              <article class="d-inline">
-                <i class="fas fa-chevron-up"></i>
-                <a href="#">111</a>
-                <i class="fas fa-chevron-down"></i>
-              </article>&nbsp
+          <div class="userposts col-lg-12 col-md-12 col-sm-12">
 
+            <article class="uservote">
+              <i class="fas fa-chevron-up"></i><br>
+              <a href="#">69</a><br>
+              <i class="fas fa-chevron-down"></i>
+            </article>
 
-              <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
+            <div class="title-desc">
+              <h6>The description of the post goes here. This section can contain longer text. It should describe about the title. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua.</h6>
+            </div>
+            <div class="">
               <a class="btn no-padding-btn" href="#"> <i class="fas fa-flag"></i> Report</a>
-
-
-            </span>
-            <span class="time-section">
-
-              <i>4 hours ago </i>|
-              <a href="#">username_here</a>
-
-            </span>
-
+              <span class="time-section">
+                <i>4 days ago </i> |
+                <a href="#">username_here</a>
+              </span>
+            </div>
 
           </div>
 
-        </div>
+          <div class="userposts col-lg-12 col-md-12 col-sm-12">
 
-        <div class="comment col-lg-12 col-md-12 col-sm-12">
+            <article class="uservote">
+              <i class="fas fa-chevron-up"></i><br>
+              <a href="#">69</a><br>
+              <i class="fas fa-chevron-down"></i>
+            </article>
 
-          <div class="title-desc">
-            <h6>The comment goes here. This section can contain longer text. It should describe about the title. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua </h6>
-          </div>
-
-          <div class="">
-            <span class="vote-section">
-              <article class="d-inline">
-                <i class="fas fa-chevron-up"></i>
-                <a href="#">111</a>
-                <i class="fas fa-chevron-down"></i>
-              </article>&nbsp
-
-
-              <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
+            <div class="title-desc">
+              <h6>The description of the post goes here. This section can contain longer text. It should describe about the title. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua.</h6>
+            </div>
+            <div class="">
               <a class="btn no-padding-btn" href="#"> <i class="fas fa-flag"></i> Report</a>
-
-
-            </span>
-            <span class="time-section">
-
-              <i>4 hours ago </i>|
-              <a href="#">username_here</a>
-
-            </span>
-
+              <span class="time-section">
+                <i>4 days ago </i> |
+                <a href="#">username_here</a>
+              </span>
+            </div>
 
           </div>
 
-        </div>
+          <div class="userposts col-lg-12 col-md-12 col-sm-12">
 
-        <div class="comment col-lg-12 col-md-12 col-sm-12">
+            <article class="uservote">
+              <i class="fas fa-chevron-up"></i><br>
+              <a href="#">69</a><br>
+              <i class="fas fa-chevron-down"></i>
+            </article>
 
-          <div class="title-desc">
-            <h6>The comment goes here. This section can contain longer text. It should describe about the title. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua </h6>
-          </div>
-
-          <div class="">
-            <span class="vote-section">
-              <article class="d-inline">
-                <i class="fas fa-chevron-up"></i>
-                <a href="#">111</a>
-                <i class="fas fa-chevron-down"></i>
-              </article>&nbsp
-
-
-              <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
+            <div class="title-desc">
+              <h6>The description of the post goes here. This section can contain longer text. It should describe about the title. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua.</h6>
+            </div>
+            <div class="">
               <a class="btn no-padding-btn" href="#"> <i class="fas fa-flag"></i> Report</a>
-
-
-            </span>
-            <span class="time-section">
-
-              <i>4 hours ago </i>|
-              <a href="#">username_here</a>
-
-            </span>
-
+              <span class="time-section">
+                <i>4 days ago </i> |
+                <a href="#">username_here</a>
+              </span>
+            </div>
 
           </div>
 
-        </div>
+          <div class="userposts col-lg-12 col-md-12 col-sm-12">
 
-        <div class="comment col-lg-12 col-md-12 col-sm-12">
+            <article class="uservote">
+              <i class="fas fa-chevron-up"></i><br>
+              <a href="#">69</a><br>
+              <i class="fas fa-chevron-down"></i>
+            </article>
 
-          <div class="title-desc">
-            <h6>The comment goes here. This section can contain longer text. It should describe about the title. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua </h6>
-          </div>
-
-          <div class="">
-            <span class="vote-section">
-              <article class="d-inline">
-                <i class="fas fa-chevron-up"></i>
-                <a href="#">111</a>
-                <i class="fas fa-chevron-down"></i>
-              </article>&nbsp
-
-
-              <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
+            <div class="title-desc">
+              <h6>The description of the post goes here. This section can contain longer text. It should describe about the title. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua.</h6>
+            </div>
+            <div class="">
               <a class="btn no-padding-btn" href="#"> <i class="fas fa-flag"></i> Report</a>
-
-
-            </span>
-            <span class="time-section">
-
-              <i>4 hours ago </i>|
-              <a href="#">username_here</a>
-
-            </span>
-
+              <span class="time-section">
+                <i>4 days ago </i> |
+                <a href="#">username_here</a>
+              </span>
+            </div>
 
           </div>
 
-        </div>
+          <div class="userposts col-lg-12 col-md-12 col-sm-12">
 
-        <div class="comment col-lg-12 col-md-12 col-sm-12">
+            <article class="uservote">
+              <i class="fas fa-chevron-up"></i><br>
+              <a href="#">69</a><br>
+              <i class="fas fa-chevron-down"></i>
+            </article>
 
-          <div class="title-desc">
-            <h6>The comment goes here. This section can contain longer text. It should describe about the title. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua </h6>
-          </div>
-
-          <div class="">
-            <span class="vote-section">
-              <article class="d-inline">
-                <i class="fas fa-chevron-up"></i>
-                <a href="#">111</a>
-                <i class="fas fa-chevron-down"></i>
-              </article>&nbsp
-
-
-              <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
+            <div class="title-desc">
+              <h6>The description of the post goes here. This section can contain longer text. It should describe about the title. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua.</h6>
+            </div>
+            <div class="">
               <a class="btn no-padding-btn" href="#"> <i class="fas fa-flag"></i> Report</a>
-
-
-            </span>
-            <span class="time-section">
-
-              <i>4 hours ago </i>|
-              <a href="#">username_here</a>
-
-            </span>
-
-
-          </div>
-
-        </div>
-
-        <div class="comment col-lg-12 col-md-12 col-sm-12">
-
-          <div class="title-desc">
-            <h6>The comment goes here. This section can contain longer text. It should describe about the title. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua </h6>
-          </div>
-
-          <div class="">
-            <span class="vote-section">
-              <article class="d-inline">
-                <i class="fas fa-chevron-up"></i>
-                <a href="#">111</a>
-                <i class="fas fa-chevron-down"></i>
-              </article>&nbsp
-
-
-              <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
-              <a class="btn no-padding-btn" href="#"> <i class="fas fa-flag"></i> Report</a>
-
-
-            </span>
-            <span class="time-section">
-
-              <i>4 hours ago </i>|
-              <a href="#">username_here</a>
-
-            </span>
-
-
-          </div>
-
-        </div>
-
-        <div class="comment col-lg-12 col-md-12 col-sm-12">
-
-          <div class="title-desc">
-            <h6>The comment goes here. This section can contain longer text. It should describe about the title. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua </h6>
-          </div>
-
-          <div class="">
-            <span class="vote-section">
-              <article class="d-inline">
-                <i class="fas fa-chevron-up"></i>
-                <a href="#">111</a>
-                <i class="fas fa-chevron-down"></i>
-              </article>&nbsp
-
-
-              <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
-              <a class="btn no-padding-btn" href="#"> <i class="fas fa-flag"></i> Report</a>
-
-
-            </span>
-            <span class="time-section">
-
-              <i>4 hours ago </i>|
-              <a href="#">username_here</a>
-
-            </span>
-
-
-          </div>
-
-        </div>
-
-        <div class="comment col-lg-12 col-md-12 col-sm-12">
-
-          <div class="title-desc">
-            <h6>The comment goes here. This section can contain longer text. It should describe about the title. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua </h6>
-          </div>
-
-          <div class="">
-            <span class="vote-section">
-              <article class="d-inline">
-                <i class="fas fa-chevron-up"></i>
-                <a href="#">111</a>
-                <i class="fas fa-chevron-down"></i>
-              </article>&nbsp
-
-
-              <a class="btn no-padding-btn" href="#"> <i class="fas fa-trash-alt"></i> Delete</a>
-              <a class="btn no-padding-btn" href="#"> <i class="fas fa-flag"></i> Report</a>
-
-
-            </span>
-            <span class="time-section">
-
-              <i>4 hours ago </i>|
-              <a href="#">username_here</a>
-
-            </span>
-
+              <span class="time-section">
+                <i>4 days ago </i> |
+                <a href="#">username_here</a>
+              </span>
+            </div>
 
           </div>
 
         </div>
 
 
+      </section>
+
+      <section class="col-lg-4 col-md-6 recommended">
+
+        <div class="related">
+          <i class="fas fa-2x fa-paperclip"></i>
+          <h4 class="d-inline">You might find these helpful.</h4>
+          <br><br>
+          <hr>
+          <div class="related-post">
+            <h6>This is a post which is related to the discussion. This might be interesting and/or what youre looking for.</h6>
+          </div>
+          <hr>
+          <div class="related-post">
+            <h6>This is a post which is related to the discussion. This might be interesting and/or what youre looking for.</h6>
+          </div>
+          <hr>
+          <div class="related-post">
+            <h6>This is a post which is related to the discussion. This might be interesting and/or what youre looking for.</h6>
+          </div>
+          <hr>
+          <div class="related-post">
+            <h6>This is a post which is related to the discussion. This might be interesting and/or what youre looking for.</h6>
+          </div>
+          <hr>
+          <div class="related-post">
+            <h6>This is a post which is related to the discussion. This might be interesting and/or what youre looking for.</h6>
+          </div>
+          <hr>
+          <div class="related-post">
+            <h6>This is a post which is related to the discussion. This might be interesting and/or what youre looking for.</h6>
+          </div>
+          <hr>
 
 
-      </div>
-
-
-    </section>
-
-    <section class="col-lg-4 col-md-6 recommended">
-
-      <div class="related">
-        <i class="fas fa-2x fa-paperclip"></i>
-        <h4 class="d-inline">You might find these helpful.</h4>
-        <br><br>
-        <hr>
-        <div class="related-post">
-          <h6>This is a post which is related to the discussion. This might be interesting and/or what youre looking for.</h6>
         </div>
-        <hr>
-        <div class="related-post">
-          <h6>This is a post which is related to the discussion. This might be interesting and/or what youre looking for.</h6>
-        </div>
-        <hr>
-        <div class="related-post">
-          <h6>This is a post which is related to the discussion. This might be interesting and/or what youre looking for.</h6>
-        </div>
-        <hr>
-        <div class="related-post">
-          <h6>This is a post which is related to the discussion. This might be interesting and/or what youre looking for.</h6>
-        </div>
-        <hr>
-        <div class="related-post">
-          <h6>This is a post which is related to the discussion. This might be interesting and/or what youre looking for.</h6>
-        </div>
-        <hr>
-        <div class="related-post">
-          <h6>This is a post which is related to the discussion. This might be interesting and/or what youre looking for.</h6>
-        </div>
-        <hr>
 
-
-      </div>
-
-    </section>
+      </section>
+    </div>
   </div>
 </body>
 
