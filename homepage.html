@@ -21,14 +21,6 @@
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
-  <!-- Bootstrap Tags Input -->
-
-  <!-- Tags Script and CSS -->
-  <!-- <script src='TagsScripts/tagsInputScript.js'></script>
-<link rel="stylesheet" type="css" href="TagsScripts/tagsinput.css" /> -->
-
-
-
 
 </head>
 
@@ -65,7 +57,7 @@
         <span class="navbar-text">
           <a href="user.html">username_here</a>
         </span>&nbsp
-        <button class="btn btn-sm btn-dark" type="button" name="button">Logout</button>
+        <button class="btn btn-sm btn-outline-light" type="button" name="button">Logout</button>
       </div>
 
     </nav>
@@ -85,8 +77,8 @@
         <input class="input-area title-input" type="text" placeholder="Enter post title here." name="" value="" required> <br>
         <textarea class="input-area desc-input" type="text" placeholder="Enter post description here." name="" value=""></textarea> <br>
 
-      
-        <!-- Category Selector 2 -->
+
+        <!-- Category Selector  -->
         <div class="form-group  d-inline">
           <select class=" btn btn-dark btn-sm dropdown-button">
             <option value="">Select Category</option>
@@ -99,7 +91,8 @@
         </div>
         <!-- Post Submit Button -->
         <button class="btn btn-dark btn-sm submit-button" type="submit" name="button"> Submit </button>
-        <br>&nbsp <br> &nbsp
+        <br>&nbsp <br>&nbsp
+        <hr> <br> &nbsp
 
       </form>
     </div>
@@ -115,9 +108,21 @@
 
       <span class="section-header col-lg-7 col-md-9 col-sm-10 ">
 
-        <i class="fas fa-2x fa-angle-double-down">&nbsp</i>
+        <i class="fas fa-2x fa-book-open">&nbsp</i>
         <h3 class="d-inline"> Home Feed</h3>
+        <div class="float-right form-group d-inline">
+          <i class="fas fa-filter padding-lg"></i>
+          <select class=" btn btn-dark btn-sm dropdown-button">
+            <option value=""> Filter Feed </option>
+            <option value="Coding Issues">Coding Issues</option>
+            <option value="Algorithm">Algorithm</option>
+            <option value="Exams">Exams</option>
+            <option value="Event">Event</option>
+          </select>
+
+        </div>
       </span>
+
       <!-- </div> -->
       <br>
       <div class="userposts col-lg-7 col-md-9 col-sm-10">

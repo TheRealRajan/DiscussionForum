@@ -6,6 +6,26 @@ body {
   display: block; */
 }
 
+/* Custom ScrollBar */
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 
 .row{
   margin-left: 0;
@@ -69,6 +89,7 @@ margin-bottom: 3.5rem;
   font-size: 1.1rem;
   font-style: italic;
   padding-left: 1rem;
+  background: #f4f4f4;
 }
 
 .search-bar{
@@ -89,10 +110,16 @@ margin-bottom: 3.5rem;
   background-color: #f0f0f0;
   margin: 0 auto;
 }
+
+.user-input ::placeholder{
+  color:#545454;
+}
+
 .input-area{
 width:100%;
 border:2px solid #D4D3D2;
 padding: 0.5rem 1rem;
+background: #f4f4f4;
 
 }
 .title-input{
@@ -167,6 +194,10 @@ padding: 0.5rem 1rem;
 .no-padding-btn{
   padding:0;
 }
+
+ nav .btn{
+  border-radius: 1rem;
+}
 .comment-area{
   border-radius: 10px;
   max-height: 200px;
@@ -223,6 +254,7 @@ padding: 0.5rem 1rem;
 
 }
 
+
 .comment{
   margin:1rem auto;
   padding: 1rem 1.5rem;
@@ -256,15 +288,15 @@ padding: 0.5rem 1rem;
   margin: 2rem auto 3rem ;
 
 }
-.user-stats-parent hr{
+/* .user-stats-parent hr{
 border: solid grey 0.6px;
-}
+} */
 
 .user-stats{
   margin: 1rem 2rem 3rem ;
   padding: 1rem 0.8rem 0.8rem;
-  border: solid grey 2px;
-  border-radius: 5px;
+  border: solid lightgrey 2px;
+  border-radius: 8px;
   display: inline-block;
   width: 12rem;
   height: 8rem;
@@ -295,6 +327,7 @@ border: solid grey 0.6px;
 .section-header{
   width: 60%;
   margin: 0 auto;
+  padding:0.5rem;
 }
 
 .table-responsive{
